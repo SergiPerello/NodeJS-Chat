@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <title>Socket.IO chat</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font: 13px Helvetica, Arial;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .menu li {
+            float: left;
+        }
+
+            .menu li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                .menu li a:hover {
+                    background-color: #111;
+                }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="./?sala=1">Sala1</a></li>
+            <li><a href="./?sala=2">Sala2</a></li>
+            <li><a href="./?sala=3">Sala3</a></li>
+            <li><a href="./?sala=4">Sala4</a></li>
+        </ul>
+    </div>
+    <div>
+        <p>Esta sala no existe!</p>
+    </div>
+</body>
+</html>
